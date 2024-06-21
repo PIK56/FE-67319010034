@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <style>
+        .nav-arrow{
+            display: inline-block;
+            padding: 4.5px;
+            background-color: rgba(253, 0, 0, 0.836);
+        }
+        .btn-color{
+            background-color: rgb(7, 241, 85);
+            color: antiquewhite;
+            border-radius: 8px;
+        }
+    </style>
+    <script>
+        //var number2= 10;
+         let count_p = 0;
+        //const number3= 10;
+        const name_p =["gdb8j0funqbd.jpg","oMY7KBLS1IGuvBAJjkAAedIfMLQfbcgDgAO8yE~tplv-tej9nj120t-origin.webp",
+        "pug.jpg",
+        "vivi.jpg"];
+        console.log(name_p[2]);
+        function forwardPic(){
+         //name_p.length;
+         if(count_p<name_p.length-1){
+            count_p =count_p +1 ;
+         }else{
+            count_p=0;
+         }
+            count_p =count_p +1;
+            console.log("count_p=",count_p);
+            console.log("name_p",name_p[count_p]);
+            console.log(name_p.length);
+            document.getElementById("slider").src= name_p[count_p];
+        }
+        setInterval(forwardPic, 120);
+            
+      
+    </script>
+</head>
+<body>
+    <div class="nav-arrow">
+        <button class="btn-color">backward</button>
+        <button class="btn-color"onclick="forwardPic()">forward</button>
+    </div>
+    <br>
+    <img id="slider" width="650x" src="gdb8j0funqbd.jpg" alt="">
+
+</body>
+</html>
