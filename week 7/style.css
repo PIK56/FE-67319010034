@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(71, 181, 245);
+}
+.form_1{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: 30%;
+    padding: 10px;
+    border-color: rgb(0, 0, 0);
+    border-style: groove;
+    border-radius: 20px;
+    /*display: none;*/
+}
+.top_1{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    border-color: aqua;
+    border-style: double;
+    border-radius: 20px;
+}
+form{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    height: fit-content;
+    padding: 10px;
+    border-color: aqua;
+    border-style: groove;
+    border-radius: 20px;
+}
+.p_top{
+    font-size: 20px;
+}
