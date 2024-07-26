@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 236, 217);
+}
+.form_1{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 30%;
+    padding: 20px;
+    border-color: rgb(117, 0, 0);
+    border-style: groove;
+    border-radius: 20px;
+    /*display: none;*/
+}
+.top_1{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    height: 30%;
+    padding: 10px;
+    border-color: rgb(17, 0, 255);
+    border-style: double;
+    border-radius: 20px;
+}
+form{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 15%;
+    height: fit-content;
+    padding: 15px;
+    border-color: rgb(4, 12, 12);
+    border-style: groove;
+    border-radius: 10px;
+}
+.p_top{
+    font-size: 30px;
+}
